@@ -1,2 +1,2 @@
-# Tetris-game
-A simple Tetris game written in C++ using the SFML library
+# Thermodynamics-simulation
+Simulation of thermodynamic processes in an ideal gas
