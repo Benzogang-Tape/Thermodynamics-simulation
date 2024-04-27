@@ -1,2 +1,4 @@
 # Thermodynamics-simulation
-Simulation of thermodynamic processes in an ideal gas
+Simple application for simulation of thermodynamic processes in ideal gas
+---
+###### Written in C++ using the SFML library
