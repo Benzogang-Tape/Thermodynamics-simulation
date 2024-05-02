@@ -10,7 +10,21 @@ FETCHCONTENT_MAKEAVAILABLE(SFML)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(${PROJECT_NAME} main.cpp)
+set(${PROJECT_NAME}_HEADERS
+    "Reactor.hpp"
+)
+
+set(${PROJECT_NAME}_SOURCES
+    "Reactor.cpp"
+    "main.cpp"
+)
+
+set(${PROJECT_NAME}_SOURCE_LIST
+    ${${PROJECT_NAME}_SOURCES}
+    ${${PROJECT_NAME}_HEADERS}
+)
+
+add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_SOURCE_LIST})
 
 #set(SFML_DIR "D:\\sdk\\SFML-2.6.1\\lib\\cmake\\SFML")
 
