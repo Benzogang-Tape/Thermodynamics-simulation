@@ -1,24 +1,16 @@
-#include <SFML/Graphics.hpp>
+#include <iostream>
+#include "Reactor.hpp"
 
-int main()
-{
-	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-	sf::CircleShape shape(100.f);
-	shape.setFillColor(sf::Color::Green);
+const int WIDTH {1920};
+const int HEIGHT {1080};
 
-	while (window.isOpen())
-	{
-		sf::Event event;
-		while (window.pollEvent(event))
-		{
-			if (event.type == sf::Event::Closed)
-				window.close();
-		}
+void runReactorApp();
 
-		window.clear();
-		window.draw(shape);
-		window.display();
-	}
-
+int main() {
+	runReactorApp();
 	return 0;
+}
+
+void runReactorApp() {
+
 }
