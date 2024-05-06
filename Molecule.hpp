@@ -6,8 +6,8 @@
 #define THERMODYNAMICS_SIMULATION_MOLECULE_HPP
 
 enum MoleculeTypes {
-	MOLECULE_CIRCLE = 0,
-	MOLECULE_SQUARE = 1,
+	moleculeCircle = 0,
+	moleculeSquare = 1,
 };
 
 class Molecule {
