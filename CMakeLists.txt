@@ -11,22 +11,22 @@ FETCHCONTENT_MAKEAVAILABLE(SFML)
 set(CMAKE_CXX_STANDARD 20)
 
 set(${PROJECT_NAME}_HEADERS
-    Reactor.hpp
-    Molecules.hpp
-    Vec.hpp
-    Buttons.hpp
-    ReactorBtns.hpp
-    Plot.hpp
+    src/Reactor.hpp
+    src/Molecules.hpp
+    src/Vec.hpp
+    src/Buttons.hpp
+    src/ReactorBtns.hpp
+    src/Plot.hpp
 )
 
 set(${PROJECT_NAME}_SOURCES
-    Reactor.cpp
-    Molecules.cpp
-    Vec.cpp
-    Buttons.cpp
-    ReactorBtns.cpp
-    Plot.cpp
-    main.cpp
+    src/Reactor.cpp
+    src/Molecules.cpp
+    src/Vec.cpp
+    src/Buttons.cpp
+    src/ReactorBtns.cpp
+    src/Plot.cpp
+    src/main.cpp
 )
 
 set(${PROJECT_NAME}_SOURCE_LIST
